@@ -46,6 +46,7 @@ public partial class MainWindow: Gtk.Window
 			if (processes.Length > 0) {
 				Thread.Sleep (1000);
 			} else {
+				pProcess.StandardOutput.ReadToEnd(); 
 				break;
 			}
 			pProcess.OutputDataReceived += new DataReceivedEventHandler((senderr, args) =>
