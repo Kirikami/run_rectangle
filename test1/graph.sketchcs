@@ -1,0 +1,13 @@
+﻿```xml
+<Manifest>
+  <AgentType>Mac_Cocoa</AgentType>
+</Manifest>
+```
+```csharp
+// Sketch your next great idea!
+
+using AppKit;
+using Foundation;
+using CoreGraphics;
+```
+
